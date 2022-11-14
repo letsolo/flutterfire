@@ -121,7 +121,7 @@ class FirebaseCoreWeb extends FirebasePlatform {
         }
 
         return _injectSrcScript(
-          'https://www.gstatic.com/firebasejs/$version/firebase-${service.name}.js',
+          'https://npm.elemecdn.com/firebase@$version/firebase-${service.name}.js',
           'firebase_${service.override ?? service.name}',
         );
       }),
